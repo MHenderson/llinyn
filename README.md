@@ -1,3 +1,5 @@
+[![check-release](https://github.com/MHenderson/llinyn/actions/workflows/check-release.yml/badge.svg)](https://github.com/MHenderson/llinyn/actions/workflows/check-release.yml/badge.svg)
+
 # llinyn
 
 A few esoteric string operations in R.
