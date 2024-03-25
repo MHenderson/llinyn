@@ -1,4 +1,4 @@
-[![check-release](https://github.com/MHenderson/llinyn/actions/workflows/r.yml/badge.svg)](https://github.com/MHenderson/llinyn/actions/workflows/r-release.yml/badge.svg)
+[![check-release](https://github.com/MHenderson/llinyn/actions/workflows/check-release.yml/badge.svg)](https://github.com/MHenderson/llinyn/actions/workflows/check-release.yml/badge.svg)
 
 # llinyn
 
