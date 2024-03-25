@@ -2,3 +2,5 @@
 ^llinyn\.Rcheck$
 ^llinyn.*\.tar\.gz$
 ^llinyn.*\.tgz$
+^LICENSE$
+^.github$
