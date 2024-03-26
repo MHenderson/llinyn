@@ -7,7 +7,7 @@
 repair_latex(X)
 }
 \arguments{
-\item{X}{}
+\item{X}{A dataframe.}
 }
 \description{
 Repair LaTeX

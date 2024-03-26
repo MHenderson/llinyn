@@ -36,8 +36,8 @@ gqg_paragraph <- function(s, textwidth) {
 
 #' Left align text
 #'
-#' @param X
-#' @param textwidth
+#' @param X A dataframe
+#' @param textwidth An integer
 #'
 #' @return
 #' @export

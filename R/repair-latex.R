@@ -1,6 +1,6 @@
 #' Repair LaTeX
 #'
-#' @param X
+#' @param X A dataframe.
 #'
 #' @return
 #' @export

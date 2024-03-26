@@ -1,6 +1,6 @@
 #' Augment time labels
 #'
-#' @param X
+#' @param X A dataframe
 #'
 #' @return
 #' @export

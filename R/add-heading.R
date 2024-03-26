@@ -1,6 +1,6 @@
 #' Add headings
 #'
-#' @param X
+#' @param X A dateframe
 #'
 #' @return
 #' @export

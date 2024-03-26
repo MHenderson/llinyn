@@ -7,7 +7,7 @@
 add_heading(X)
 }
 \arguments{
-\item{X}{}
+\item{X}{A dateframe}
 }
 \description{
 Add headings

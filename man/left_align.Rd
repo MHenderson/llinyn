@@ -7,7 +7,9 @@
 left_align(X, textwidth = 72)
 }
 \arguments{
-\item{textwidth}{}
+\item{X}{A dataframe}
+
+\item{textwidth}{An integer}
 }
 \description{
 Left align text

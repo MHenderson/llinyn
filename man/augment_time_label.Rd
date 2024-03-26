@@ -7,7 +7,7 @@
 augment_time_label(X)
 }
 \arguments{
-\item{X}{}
+\item{X}{A dataframe}
 }
 \description{
 Augment time labels
