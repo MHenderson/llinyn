@@ -4,3 +4,4 @@
 ^llinyn.*\.tgz$
 ^LICENSE$
 ^.github$
+^.*\.Rproj$

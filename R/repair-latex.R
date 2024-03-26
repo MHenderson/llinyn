@@ -1,3 +1,11 @@
+#' Repair LaTeX
+#'
+#' @param X
+#'
+#' @return
+#' @export
+#'
+#' @examples
 repair_latex <- function(X) {
   X |>
     dplyr::mutate(

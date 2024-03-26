@@ -1,3 +1,11 @@
+#' Add headings
+#'
+#' @param X
+#'
+#' @return
+#' @export
+#'
+#' @examples
 add_heading <- function(X) {
   X |>
     dplyr::mutate(

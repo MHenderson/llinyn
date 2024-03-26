@@ -1,3 +1,11 @@
+#' Augment time labels
+#'
+#' @param X
+#'
+#' @return
+#' @export
+#'
+#' @examples
 augment_time_label <- function(X) {
   X |>
     dplyr::mutate(
