@@ -34,6 +34,20 @@ gqg_paragraph <- function(s, textwidth) {
   return(s)
 }
 
+locate_last_space_before <- function(s, x) {
+  X <- stringr::str_locate_all(s, " ")[[1]]
+  X_end <- X[, "end"]
+  max(X_end[X_end <= x])
+}
+
+replace_at_i <- function(s, i, x = "\n") {
+  paste(
+    stringr::str_sub(s, 1, i - 1),
+    stringr::str_sub(s, i + 1, stringr::str_length(s)),
+    sep = x
+  )
+}
+
 #' Left align text
 #'
 #' @param X A dataframe
