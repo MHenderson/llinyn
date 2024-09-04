@@ -2,5 +2,6 @@
 
 export(add_heading)
 export(augment_time_label)
+export(latex_section_heading)
 export(left_align)
 export(repair_latex)
