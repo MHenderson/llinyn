@@ -2,13 +2,16 @@
 % Please edit documentation in R/augment-time-label.R
 \name{augment_time_label}
 \alias{augment_time_label}
-\title{Augment time labels}
+\title{Add Time Labels to a Data Frame of Text}
 \usage{
 augment_time_label(X)
 }
 \arguments{
-\item{X}{A dataframe}
+\item{X}{A data frame with a column named text.}
+}
+\value{
+A data frame with new columns, ts_s, ts, time_label.
 }
 \description{
-Augment time labels
+Add Time Labels to a Data Frame of Text
 }
