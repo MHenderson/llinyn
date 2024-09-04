@@ -6,11 +6,6 @@
 #' @param ymd A date in ymd format.
 #'
 #' @return A date string.
-#'
-#' @examples
-#' \donttest{
-#'   ymd_text_format("2024/09/01")
-#' }
 ymd_text_format <- function(ymd) {
   paste(
     lubridate::wday(ymd, label = TRUE, abbr = FALSE),
@@ -30,9 +25,6 @@ ymd_text_format <- function(ymd) {
 #'
 #' @return A LaTeX section heading string.
 #' @export
-#'
-#' @examples
-#' latex_section_heading("2024/09/01", "06:06 am")
 latex_section_heading <- function(ymd, time_s) {
   paste0("\\section{", ymd_text_format(ymd), "}\n\n", "\\hspace*{\\fill}", time_s, "\\vspace{5mm}\n\n")
 }
@@ -48,8 +40,6 @@ latex_section_heading <- function(ymd, time_s) {
 #'
 #' @return A data frame with an extra column `tex_w_heading`.
 #' @export
-#'
-#' @examples
 add_heading <- function(X) {
   X |>
     dplyr::mutate(
