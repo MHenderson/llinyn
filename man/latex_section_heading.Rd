@@ -18,6 +18,3 @@ A LaTeX section heading string.
 Given a date in ymd format (e.g. 2024/09/01) and time string (e.g. 06:06 am)
 this function returns a LaTeX section heading.
 }
-\examples{
-latex_section_heading("2024/09/01", "06:06 am")
-}

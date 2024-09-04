@@ -16,8 +16,3 @@ A date string.
 This takes a ymd (e.g. 2024/09/01) and returns the same date in text format
 (e.g. Sunday 1 September 2024).
 }
-\examples{
-\donttest{
-  ymd_text_format("2024/09/01")
-}
-}
