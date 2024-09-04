@@ -7,7 +7,10 @@
 repair_latex(X)
 }
 \arguments{
-\item{X}{A dataframe.}
+\item{X}{A data frame with a text column.}
+}
+\value{
+A new data frame containing a tex column.
 }
 \description{
 Repair LaTeX
