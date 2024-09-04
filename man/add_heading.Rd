@@ -7,8 +7,14 @@
 add_heading(X)
 }
 \arguments{
-\item{X}{A dateframe}
+\item{X}{A data frame with columns \code{ymd}, \code{time_label} and \code{tex}.}
+}
+\value{
+A data frame with an extra column \code{tex_w_heading}.
 }
 \description{
-Add headings
+Given a data frame with columns \code{ymd}, \code{time_label} and \code{tex} return a data
+frame with
+the same columns but with an addition \code{tex_w_heading} column made from the \code{ymd}
+and \code{time_label} columns.
 }
