@@ -1,10 +1,10 @@
 #' Replace a Character at a Location in a String
 #'
-#' @param s
-#' @param i
-#' @param x
+#' @param s A string.
+#' @param i An index.
+#' @param x A character.
 #'
-#' @return
+#' @return The string s but with character x inserted at position i.
 #' @export
 replace_at_i <- function(s, i, x = "\n") {
   paste(

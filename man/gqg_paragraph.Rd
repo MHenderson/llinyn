@@ -7,7 +7,12 @@
 gqg_paragraph(s, textwidth)
 }
 \arguments{
-\item{textwidth}{}
+\item{s}{A string.}
+
+\item{textwidth}{Desired width of output strings.}
+}
+\value{
+A string with more newline characters.
 }
 \description{
 Chop a String of Text to a Specific Width

@@ -1,9 +1,9 @@
 #' Chop a String of Text to a Specific Width
 #'
-#' @param x
-#' @param textwidth
+#' @param x A string.
+#' @param textwidth Desired width of output strings.
 #'
-#' @return
+#' @return A string with more newline characters.
 #' @export
 gqg <- function(x, textwidth) {
 

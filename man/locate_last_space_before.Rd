@@ -2,13 +2,18 @@
 % Please edit documentation in R/locate-last-space-before.R
 \name{locate_last_space_before}
 \alias{locate_last_space_before}
-\title{Locate Last Space Before a Character in a String}
+\title{Locate Last Space Before a Space in a String}
 \usage{
 locate_last_space_before(s, x)
 }
 \arguments{
-\item{x}{}
+\item{s}{A string.}
+
+\item{x}{An index.}
+}
+\value{
+The position of the last space character in s before x.
 }
 \description{
-Locate Last Space Before a Character in a String
+Locate Last Space Before a Space in a String
 }

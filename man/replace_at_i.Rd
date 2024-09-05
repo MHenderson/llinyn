@@ -7,7 +7,14 @@
 replace_at_i(s, i, x = "\\n")
 }
 \arguments{
-\item{x}{}
+\item{s}{A string.}
+
+\item{i}{An index.}
+
+\item{x}{A character.}
+}
+\value{
+The string s but with character x inserted at position i.
 }
 \description{
 Replace a Character at a Location in a String
