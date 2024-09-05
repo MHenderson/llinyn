@@ -2,7 +2,11 @@
 
 export(add_heading)
 export(augment_time_label)
+export(gqg)
+export(gqg_paragraph)
 export(latex_section_heading)
 export(left_align)
+export(locate_last_space_before)
 export(repair_latex)
 export(repair_latex_string)
+export(replace_at_i)
