@@ -7,7 +7,7 @@
 repair_latex_string(x)
 }
 \arguments{
-\item{x}{A text strirng.}
+\item{x}{A text string.}
 }
 \value{
 A text string with some escaped characters.
