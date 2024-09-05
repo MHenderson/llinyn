@@ -37,14 +37,8 @@ left_align <- function(X, textwidth = 72) {
 augment_time_label <- function(X) {
   X |>
     dplyr::mutate(
-      ts_s = stringr::str_match(text, "% (.*?) (GMT|BST)")[, 2],
-      ts = lubridate::parse_date_time(ts_s, orders = c("a d b H:M:S", "a b d H:M:S"))
-    ) |>
-    dplyr::mutate(
-      time_label = format(ts, format = "%I:%M %p")
-    ) |>
-    dplyr::mutate(
-      text = strip_time_headings(text)
+      time_label = extract_time_label(text),
+            text = strip_time_headings(text)
     )
 }
 
