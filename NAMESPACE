@@ -2,6 +2,7 @@
 
 export(add_heading)
 export(augment_time_label)
+export(extract_time_label)
 export(gqg)
 export(gqg_paragraph)
 export(latex_section_heading)
