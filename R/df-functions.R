@@ -56,6 +56,6 @@ augment_time_label <- function(X) {
 add_heading <- function(X) {
   X |>
     dplyr::mutate(
-      tex_w_heading = paste0(latex_section_heading(ymd, time_label), tex)
+      tex_w_heading = paste0("\\section{", ymd_text_format(ymd), "}\n\n", "\\hspace*{\\fill}", time_label, "\\vspace{5mm}\n\n", tex)
     )
 }
