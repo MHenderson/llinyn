@@ -6,6 +6,7 @@
 #' @param ymd A date in ymd format.
 #'
 #' @return A date string.
+#' @export
 ymd_text_format <- function(ymd) {
   paste(
     lubridate::wday(ymd, label = TRUE, abbr = FALSE),
