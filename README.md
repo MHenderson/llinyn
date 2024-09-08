@@ -4,8 +4,3 @@
 # llinyn
 
 A few esoteric string operations in R.
-
-* `add_heading`
-* `augment_time_label`
-* `left_align`
-* `repair_latex`
